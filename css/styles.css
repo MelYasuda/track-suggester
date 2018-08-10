@@ -37,3 +37,7 @@ p {
 #result {
   font-weight: bold;
 }
+
+.form-group {
+  width: 50%;
+}
