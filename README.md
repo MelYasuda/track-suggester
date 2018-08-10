@@ -31,4 +31,6 @@ _* HTML
 
 ### License
 
+*This software is licensed under the MIT license.*
+
 Copyright (c) 2018 **_Mel Yasuda_**

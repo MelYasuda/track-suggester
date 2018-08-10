@@ -9,26 +9,17 @@ $(document).ready(function() {
 
     if (!design || !orgsize || !googleorms || !career || !attitude) {
       alert("Answer all the questions before you submit!")
-    }   else if (design === "male" && orgsize === "banana" && orgsize === "banana" && orgsize === "banana"  ) {
-        $("#result").text("Rihanna");
+      } else if (design === "yes" && orgsize === "big" && attitude === "showoff") {
+        $("#result").text("React! You can build creative websites and show off to yours friends!");
         $("#resultform").show();
-      } else if (gender === "male" && fruit === "apple") {
-        $("#result").text("Ariana Grande");
+      } else if (googleorms === "ms" && orgsize === "big" && attitude === "humble") {
+        $("#result").text("C#! Your works might not be the coolest but surely helps people in their daily lives!");
         $("#resultform").show();
-      } else if (gender === "male" && fruit === "orange") {
-        $("#result").text("Constance Wu");
+      } else if (career === "change" && googleorms === "google" && design === "no") {
+        $("#result").text("PHP! You will have options to work for different kinds of companies!");
         $("#resultform").show();
-      } else if (gender === "female" && fruit === "banana") {
-        $("#result").text("Drake");
-        $("#resultform").show();
-      } else if (gender === "female" && fruit === "apple") {
-        $("#result").text("BTS");
-        $("#resultform").show();
-      } else if (gender === "female" && fruit === "orange") {
-        $("#result").text("Daddy Yanky");
-        $("#resultform").show();
-      }  else if (gender === "female" && fruit === "mango") {
-        $("#result").text("Justin Timberlake");
+      } else if (career === "change" && googleorms === "google" && design === "no") {
+        $("#result").text("JAVA! Android developpers are in short! They need your help!");
         $("#resultform").show();
       }
   });
