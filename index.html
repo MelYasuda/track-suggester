@@ -3,55 +3,58 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Track Suggester</title>
   </head>
   <body>
     <div class="container">
-      <h1>Track Suggester</h1>
-      <h2>Answer the questions and find out the right programming language for you!!</h2>
+      <div class="well">
+        <h1>Track Suggester</h1>
+        <h3>Answer the questions and find out the right programming language for you!!</h3>
+      </div>
       <div>
         <form id="suggestion">
           <h3>Q1. Do you like to design?</h3>
           <div class="radio">
             <label>
               <input type="radio" name="design" value="yes">
-              Yes
+              <p>Yes</p>
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="design" value="no">
-              No
+              <p>No</p>
             </label>
           </div>
 
-          <h3>Q2. Which company do you prefer to work for?</h3>
+          <h3>Q2. Which typle of company do you prefer to work for?</h3>
           <div class="radio">
             <label>
               <input type="radio" name="orgsize" value="big">
-              Big companies like Google, Microsoft, Apple and Amazon
+              <p>Big companies like Google, Microsoft, Apple and Amazon</p>
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="orgsize" value="small">
-              Small companies like start-ups
+              <p>Small companies like start-ups</p>
             </label>
           </div>
 
-          <h3>Q3. Which would you want to work for?</h3>
+          <h3>Q3. Which company would you want to work for?</h3>
           <div class="radio">
             <label>
               <input type="radio" name="googleorms" value="google">
-              Google
+              <p>Google</p>
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="googleorms" value="ms">
-              Microsoft
+              <p>Microsoft</p>
             </label>
           </div>
 
@@ -59,13 +62,13 @@
           <div class="radio">
             <label>
               <input type="radio" name="career" value="change">
-              Work for different companies throughout your career.
+              <p>Work for different companies throughout your career.</p>
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="career" value="same">
-              Work for the same company for a long time.
+              <p>Work for the same company for a long time.</p>
             </label>
           </div>
 
@@ -73,18 +76,18 @@
           <div class="radio">
             <label>
               <input type="radio" name="attitude" value="showoff">
-              I like to show off my skills and want people to think I'm cool.
+              <p>I like to show off my skills and want people to think I'm cool.</p>
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="attitude" value="humble">
-              I'm more of a humble type. I don't enjoy so much attention.
+              <p>I'm more of a humble type. I don't enjoy so much attention.</p>
             </label>
           </div>
 
           <div>
-            <button id="submit">submit</button>
+            <button class="btn btn-default" id="submit">submit</button>
           </div>
 
         </form>
@@ -92,7 +95,7 @@
 
       <div id="resultform">
         <h3>The result is here!</h3>
-        <p>
+        <p id="resulttxt">
         You should learn <span id="result"></span>
         </p>
       </div>

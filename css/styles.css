@@ -1,3 +1,39 @@
 #resultform {
   display: none
 }
+
+body {
+  background-color: #e3ede7
+}
+
+.btn {
+  margin-top: 25px;
+}
+
+.well h1 {
+  font-weight: bold;
+}
+
+.well h3 {
+  font-style: italic;
+}
+
+.well {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.well {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 17px;
+}
+
+#resulttxt {
+  font-size: 20px
+}
+
+#result {
+  font-weight: bold;
+}

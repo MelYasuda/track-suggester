@@ -10,7 +10,7 @@ _The Track Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks 
 
 ## Setup/Installation Requirements
 
-* _Clonese this repository.
+* _Clone this repository.
 * _Open the index.html file in the top level of the cloned directory_
 
 
