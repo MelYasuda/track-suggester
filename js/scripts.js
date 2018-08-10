@@ -21,16 +21,19 @@ $(document).ready(function() {
         $("#resultname").text(name);
         $("#resultform").fadeIn("slow").show();
         $("#csharp").fadeIn("slow").show();
+        $("#qmark").hide();
       } else if (career === "change" && googleOrMs === "google" && design === "no") {
         $("#result").text("PHP! You will have options to work for different kinds of companies!");
         $("#resultname").text(name);
         $("#resultform").fadeIn("slow").show();
         $("#php").fadeIn("slow").show();
+        $("#qmark").hide();
       } else if (career === "change" && googleOrMs === "google" && design === "yes") {
         $("#result").text("JAVA! Android developpers are in short! They need your help!");
         $("#resultname").text(name);
         $("#resultform").fadeIn("slow").show();
         $("#java").fadeIn("slow").show();
+        $("#qmark").hide();
       }
   });
 });

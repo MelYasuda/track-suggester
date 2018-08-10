@@ -61,3 +61,7 @@ p {
 img {
   width: 400px;
 }
+
+img#qmark {
+  width: 600px;
+}
