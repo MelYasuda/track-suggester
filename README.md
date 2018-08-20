@@ -1,6 +1,6 @@
 # _Track Suggester_
 
-#### _ HTML, CSS, JavaScript and jQuery exercise for Epicodus, August 10, 2018_
+#### _HTML, CSS, JavaScript and jQuery exercise for Epicodus, August 10, 2018_
 
 #### By _**Mel Yasuda**_
 
